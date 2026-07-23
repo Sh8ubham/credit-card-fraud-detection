@@ -1,0 +1,20 @@
+# Raw dataset — too large / not ours to redistribute, pull from Kaggle instead
+data/*.csv
+
+# Jupyter checkpoint files — autosave copies Jupyter creates, not real project files
+.ipynb_checkpoints/
+
+# Python bytecode cache — compiled files Python generates automatically
+__pycache__/
+*.pyc
+
+# Virtual environment — local package installs, not source code
+venv/
+.venv/
+
+# Editor/OS clutter — junk files your OS or editor drops in folders
+.DS_Store
+.vscode/
+
+# Environment variables / secrets — never commit API keys or credentials
+.env
